@@ -1,0 +1,34 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Sensitive files
+.env
+*.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Scraping Artifacts
+*.html
+*.png
+*.txt
+*.json
+!package.json
+!package-lock.json
+!backend/requirements.txt
+!blinkit_products_js.json
+!jiomart_products_js.json
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

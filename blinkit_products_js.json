@@ -1,0 +1,117 @@
+[
+  {
+    "id": "product_container",
+    "text": "Showing results for \"sugar\"",
+    "lines": [
+      "Showing results for \"sugar\""
+    ],
+    "images": [],
+    "links": [],
+    "html": "<div tabindex=\"0\" role=\"button\" id=\"product_container\" data-pf=\"reset\"><div class=\"tw-flex tw-flex-row tw-justify-between tw-items-center tw-w-full tw-px-3 tw-pb-3 tw-pt-4\" data-pf=\"reset\" style=\"padding: 6px 0px;\"><div class=\"tw-flex tw-flex-1 tw-flex-col tw-items-start tw-gap-1\" data-pf=\"reset\"><div class=\"tw-text-400 tw-font-bold tw-line-clamp-2\" data-pf=\"reset\" style=\"color: var(--colors-black-900);\">Showing results for \"sugar\"</div></div></div></div>",
+    "childDivCount": 3
+  },
+  {
+    "id": "11006",
+    "text": "16% OFF\n8 MINS\nMadhur Pure & Hygienic Sulphurless Sugar\n1 kg\n₹54\n₹65\nADD",
+    "lines": [
+      "16% OFF",
+      "8 MINS",
+      "Madhur Pure & Hygienic Sulphurless Sugar",
+      "1 kg",
+      "₹54",
+      "₹65",
+      "ADD"
+    ],
+    "images": [
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/39accb8f-7237-42dd-bdce-5ac2d168824e.png",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png",
+        "alt": ""
+      }
+    ],
+    "links": [],
+    "html": "<div tabindex=\"0\" role=\"button\" class=\"tw-relative tw-flex tw-h-full tw-flex-col tw-items-start tw-gap-0.5 tw-pb-3 tw-bg-indigo-050 tw-border-[0.5px] tw-border-grey-200\" id=\"11006\" data-pf=\"reset\" style=\"min-width: 100%; border-radius: 8px; justify-content: space-between; grid-column: span 2; box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px; background-color: rgb(255, 255, 255);\"><div class=\"tw-absolute tw-left-3 tw-top-0 tw-z-10 tw-flex tw-items-center tw-justify-center\" data-pf=\"reset\"><svg width=\"29\" height=\"28\" viewBox=\"0 0 29 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M28.9499 0C28.3999 0 27.9361 1.44696 27.9361 2.60412V27.9718L24.5708 25.9718L21.2055 27.9718L17.8402 25.9718L14.4749 27.9718L11.1096 25.9718L7.74436 27.9718L4.37907 25.9718L1.01378 27.9718V2.6037C1.01378 1.44",
+    "childDivCount": 23
+  },
+  {
+    "id": "14162",
+    "text": "10% OFF\n8 MINS\nMadhur Pure & Hygienic Sulphurless Sugar (M30)\n5 kg\n₹282\n₹315\nADD",
+    "lines": [
+      "10% OFF",
+      "8 MINS",
+      "Madhur Pure & Hygienic Sulphurless Sugar (M30)",
+      "5 kg",
+      "₹282",
+      "₹315",
+      "ADD"
+    ],
+    "images": [
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/b13428af-5fd1-45f7-8d22-ed03246d5d35.png",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png",
+        "alt": ""
+      }
+    ],
+    "links": [],
+    "html": "<div tabindex=\"0\" role=\"button\" class=\"tw-relative tw-flex tw-h-full tw-flex-col tw-items-start tw-gap-0.5 tw-pb-3 tw-bg-indigo-050 tw-border-[0.5px] tw-border-grey-200\" id=\"14162\" data-pf=\"reset\" style=\"min-width: 100%; border-radius: 8px; justify-content: space-between; grid-column: span 2; box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px; background-color: rgb(255, 255, 255);\"><div class=\"tw-absolute tw-left-3 tw-top-0 tw-z-10 tw-flex tw-items-center tw-justify-center\" data-pf=\"reset\"><svg width=\"29\" height=\"28\" viewBox=\"0 0 29 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M28.9499 0C28.3999 0 27.9361 1.44696 27.9361 2.60412V27.9718L24.5708 25.9718L21.2055 27.9718L17.8402 25.9718L14.4749 27.9718L11.1096 25.9718L7.74436 27.9718L4.37907 25.9718L1.01378 27.9718V2.6037C1.01378 1.44",
+    "childDivCount": 23
+  },
+  {
+    "id": "527639",
+    "text": "29% OFF\n8 MINS\nWhole Farm Grocery Sugar (Packet) (Khand)\n1 kg\n₹53\n₹75\nADD",
+    "lines": [
+      "29% OFF",
+      "8 MINS",
+      "Whole Farm Grocery Sugar (Packet) (Khand)",
+      "1 kg",
+      "₹53",
+      "₹75",
+      "ADD"
+    ],
+    "images": [
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/cf6ec834-9b41-4022-9f56-434154bb97f2.png",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png",
+        "alt": ""
+      }
+    ],
+    "links": [],
+    "html": "<div tabindex=\"0\" role=\"button\" class=\"tw-relative tw-flex tw-h-full tw-flex-col tw-items-start tw-gap-0.5 tw-pb-3 tw-bg-indigo-050 tw-border-[0.5px] tw-border-grey-200\" id=\"527639\" data-pf=\"reset\" style=\"min-width: 100%; border-radius: 8px; justify-content: space-between; grid-column: span 2; box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px; background-color: rgb(255, 255, 255);\"><div class=\"tw-absolute tw-left-3 tw-top-0 tw-z-10 tw-flex tw-items-center tw-justify-center\" data-pf=\"reset\"><svg width=\"29\" height=\"28\" viewBox=\"0 0 29 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M28.9499 0C28.3999 0 27.9361 1.44696 27.9361 2.60412V27.9718L24.5708 25.9718L21.2055 27.9718L17.8402 25.9718L14.4749 27.9718L11.1096 25.9718L7.74436 27.9718L4.37907 25.9718L1.01378 27.9718V2.6037C1.01378 1.4",
+    "childDivCount": 23
+  },
+  {
+    "id": "5450",
+    "text": "12% OFF\n8 MINS\nOrganic Tattva Organic Brown Sugar\n500 g\n₹79\n₹90\nADD",
+    "lines": [
+      "12% OFF",
+      "8 MINS",
+      "Organic Tattva Organic Brown Sugar",
+      "500 g",
+      "₹79",
+      "₹90",
+      "ADD"
+    ],
+    "images": [
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/9c3047f4-8aa3-4069-b2d6-5a598846a307.png",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=90/assets/eta-icons/15-mins.png",
+        "alt": ""
+      }
+    ],
+    "links": [],
+    "html": "<div tabindex=\"0\" role=\"button\" class=\"tw-relative tw-flex tw-h-full tw-flex-col tw-items-start tw-gap-0.5 tw-pb-3 tw-bg-indigo-050 tw-border-[0.5px] tw-border-grey-200\" id=\"5450\" data-pf=\"reset\" style=\"min-width: 100%; border-radius: 8px; justify-content: space-between; grid-column: span 2; box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px; background-color: rgb(255, 255, 255);\"><div class=\"tw-absolute tw-left-3 tw-top-0 tw-z-10 tw-flex tw-items-center tw-justify-center\" data-pf=\"reset\"><svg width=\"29\" height=\"28\" viewBox=\"0 0 29 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M28.9499 0C28.3999 0 27.9361 1.44696 27.9361 2.60412V27.9718L24.5708 25.9718L21.2055 27.9718L17.8402 25.9718L14.4749 27.9718L11.1096 25.9718L7.74436 27.9718L4.37907 25.9718L1.01378 27.9718V2.6037C1.01378 1.446",
+    "childDivCount": 23
+  }
+]
