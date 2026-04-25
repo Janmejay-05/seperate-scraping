@@ -133,7 +133,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# (Frontend mount moved to end of file to prevent shadowing API routes)
+# (Frontend setup moved to end of file)
 
 
 # =====================
@@ -288,9 +288,26 @@ async def health_check():
         "tracked_queries": len(tracked_queries)
     }
 
-# Serve frontend files (Must be last to avoid shadowing API routes)
-FRONTEND_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
+# =====================
+# Frontend Serving
+# =====================
+
+# Resolve FRONTEND_DIR relative to this file's location
+# backend/app.py -> backend -> root -> frontend
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
+
+print(f"[APP] Searching for frontend at: {FRONTEND_DIR}")
+print(f"[APP] Directory exists: {os.path.exists(FRONTEND_DIR)}")
+
+@app.get("/")
+async def serve_home():
+    """Explicitly serve index.html for the root URL."""
+    index_file = os.path.join(FRONTEND_DIR, "index.html")
+    if os.path.exists(index_file):
+        return FileResponse(index_file)
+    return {"error": "Frontend files missing", "searched_at": FRONTEND_DIR}
+
+# Serve remaining static files (CSS, JS, etc.)
 if os.path.exists(FRONTEND_DIR):
-    app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
-else:
-    print(f"[WARNING] Frontend directory not found at {FRONTEND_DIR}")
+    app.mount("/", StaticFiles(directory=FRONTEND_DIR), name="frontend")
