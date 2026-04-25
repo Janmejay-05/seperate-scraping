@@ -133,10 +133,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve static files (frontend)
-FRONTEND_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
-if os.path.exists(FRONTEND_DIR):
-    app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")
+# (Frontend mount moved to end of file to prevent shadowing API routes)
 
 
 # =====================
@@ -192,13 +189,7 @@ async def image_proxy(url: str = Query(..., description="Image URL to proxy")):
     except Exception as e:
         raise HTTPException(502, f"Failed to fetch image: {e}")
 
-@app.get("/")
-async def root():
-    """Serve frontend or API info."""
-    index_path = os.path.join(FRONTEND_DIR, "index.html")
-    if os.path.exists(index_path):
-        return FileResponse(index_path)
-    return {"message": "Quick Compare API", "docs": "/docs"}
+# (API endpoints continue below...)
 
 
 @app.post("/api/search")
@@ -296,3 +287,7 @@ async def health_check():
         "scheduler_running": scheduler.running,
         "tracked_queries": len(tracked_queries)
     }
+
+# Serve frontend files (Must be last to avoid shadowing API routes)
+if os.path.exists(FRONTEND_DIR):
+    app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
