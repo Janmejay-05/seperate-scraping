@@ -289,5 +289,8 @@ async def health_check():
     }
 
 # Serve frontend files (Must be last to avoid shadowing API routes)
+FRONTEND_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
 if os.path.exists(FRONTEND_DIR):
     app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
+else:
+    print(f"[WARNING] Frontend directory not found at {FRONTEND_DIR}")
