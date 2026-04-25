@@ -113,7 +113,7 @@ def extract_with_llm(text: str):
     """
 
     response = client.chat.completions.create(
-        model="gpt-4.1-mini",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a food-ordering extraction engine."},
             {"role": "user", "content": prompt}
